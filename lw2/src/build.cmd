@@ -13,5 +13,5 @@ pause
 exit 0
 
 :err
-echo "Not fount argument"
+echo "Argument not found"
 exit 1
