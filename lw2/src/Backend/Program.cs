@@ -23,7 +23,7 @@ namespace Backend
             var configPath = mainDir + "/config";
             if (!Directory.Exists(configPath))
             {
-                throw new DirectoryNotFoundException("Not found configuration file");
+                throw new DirectoryNotFoundException("Configuration file not found ");
             }
             DirectoryInfo dirConfig = new DirectoryInfo(configPath);
                 var config = new ConfigurationBuilder()
