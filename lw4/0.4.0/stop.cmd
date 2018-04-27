@@ -1,1 +1,0 @@
-TASKKILL /IM dotnet.exe
