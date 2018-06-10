@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "Backend"
+		},
+		{
+			"path": "Frontend"
+		},
+		{
+			"path": "TextListener"
+		},
+		{
+			"path": "TextRankCalc"
+		},
+		{
+			"path": "VowelConsCounter"
+		},
+		{
+			"path": "VowelConsRater"
+		},
+		{
+			"path": "TextStatistics"
+		}
+	],
+	"settings": {}
+}
