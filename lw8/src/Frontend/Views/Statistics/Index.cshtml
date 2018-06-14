@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Statistics";
+}
+<div>
+	<h2>Статистика</h2>
+	<div>
+		<ul>
+			@foreach (var str in ViewData["Msg"] as IList<string>)
+			{
+				<li> @str </li>
+			}
+		</ul>
+	</div>
+</div>
+
